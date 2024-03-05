@@ -1,0 +1,42 @@
+{
+	"name": "اختراق",
+	"description": "A TeleGramBot to send messages secretly!",
+	"logo": "https://telegra.ph/file/dce083076f37df2741cb4.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+	"repository": "https://github.com/DADTYSONYAKSOMAK/Hack",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": "52e91180e35e6d91898764b43c567493"
+        },
+        "APP_ID": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": "21793031"
+        },
+        "BOT_USER": {
+            "description": "Bot user without @",
+            "value": "B_2_R_Bot"
+        },
+        "USER_ID": {
+            "description": "Owner ID",
+            "value": "6094482545"                        
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
